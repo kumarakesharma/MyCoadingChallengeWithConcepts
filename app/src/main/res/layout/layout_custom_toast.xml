@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:id="@+id/customToastViewGroup"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvToastMsg"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Toast message ...."
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyCoadingChallengeWithConcept">
         <activity
-            android:name=".coroutinesConcept.CoroutineCodingChlng1"
+            android:name=".activities.ToastSnackbarActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,12 +18,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".coroutinesConcept.CoroutineDemoActivity1"
+            android:name=".coroutinesConcept.CoroutineCodingChlng1"
             android:exported="true">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
+
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".coroutinesConcept.CoroutineDemoActivity1"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".viewModelWithLiveData.MainActivity"
